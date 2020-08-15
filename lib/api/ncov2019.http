@@ -1,0 +1,6 @@
+
+
+
+// baseUrl
+POST {{baseUrl}}/token
+Authorization: Bearer {{authorization}}
