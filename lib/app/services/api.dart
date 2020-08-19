@@ -7,10 +7,10 @@ class API {
 
   factory API.sandbox() => API(apiKey: APIKeys.ncovSandboxkey);
 
-  static final String host = 'https://ncov2019-admin.firebaseapp.com';
+  static final String host = 'ncov2019-admin.firebaseapp.com';
 
   Uri tokenUri() => Uri(
-        scheme: 'htpps',
+        scheme: 'https',
         host: host,
         path: 'token',
       );
